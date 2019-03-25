@@ -182,7 +182,10 @@ h3, h2 {
 
 #contact-form ul {
   margin-bottom: 20px;
+  list-style-type: none;
+  padding: 0;
 }
+
 
 #contact-form li {
   margin-bottom: 10px;
@@ -253,5 +256,9 @@ input[type=submit] {
     height: auto;
     margin-top: 10px;
     margin-right: 25px;
+  }
+
+  .work {
+    width: 100%;
   }
 }
