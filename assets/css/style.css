@@ -222,11 +222,19 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-  
+  .main-section {
+    
+    /* width: 60%;
+    padding-top: 160px; */
+  }
 }
 
 @media screen and (max-width: 768px) {
 
+  #main-container {
+    width: 90%;
+    padding-top: 120px;
+  }
 }
 
 @media screen and (max-width: 640px) {
