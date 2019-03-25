@@ -217,3 +217,41 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px) {
+  
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+  #logo {
+    width: 100%;
+  }
+
+  nav {
+    width: 100%;
+    text-align: center;
+    margin: 0 0;
+    padding: 10px 10px;
+  }
+  
+  .main-section {
+    /* margin: 5px; */
+  }
+
+  #main-container {
+    width: 90%;
+    padding-top: 160px;
+  }
+
+  .auth-image {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+}
